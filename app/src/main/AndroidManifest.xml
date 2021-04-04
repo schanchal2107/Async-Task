@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycardview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCardview">
+        <activity android:name=".sn"></activity>
+        <activity android:name=".situp" />
+        <activity android:name=".async3" />
+        <activity android:name=".async2" />
+        <activity android:name=".async1" />
+        <activity android:name=".pushup" />
+        <activity android:name=".start" />
+        <activity android:name=".thanku" />
+        <activity android:name=".splashrun" />
+        <activity android:name=".async" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
